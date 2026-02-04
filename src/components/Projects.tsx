@@ -3,13 +3,13 @@ import { Github, ExternalLink } from 'lucide-react';
 
 const projects = [
     {
-        title: 'My Portfolio',
-        description: 'A React application deployed on Vercel.',
-        tags: ['React', 'Vercel'],
-        features: ['Responsive UI', 'Web Application'],
-        link: 'https://my-app-nu-lilac.vercel.app/',
+        title: 'Portfolio Website',
+        description: 'A modern portfolio website showcasing front-end development skills with sections for projects, tech stack, and contact information.',
+        tags: ['React', 'Portfolio', 'Vercel'],
+        features: ['Responsive Design', 'Interactive UI', 'Project Showcase'],
+        link: 'https://myapp-lilac-beta.vercel.app/',
         github: '#',
-        image: '/project-portfolio.png'
+        image: '/project-portfolio-harsha.png'
     },
     {
         title: 'Triyatri Auto Booking',
