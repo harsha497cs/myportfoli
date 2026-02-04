@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --color-primary: #3b82f6;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+:root.light {
+  color-scheme: light;
+}
+
+body {
+  @apply antialiased;
+  overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+:root body {
+  @apply bg-black text-white;
+}
+
+:root.light body {
+  @apply bg-white text-gray-900;
+}
+
+/* Light mode adjustments for specific elements */
+:root.light main {
+  @apply text-gray-900;
+}
+
+:root.light .text-white {
+  @apply text-gray-900;
+}
+
+:root.light .text-gray-400 {
+  @apply text-gray-600;
+}
+
+:root.light .text-gray-300 {
+  @apply text-gray-700;
+}
+
+:root.light .text-gray-500 {
+  @apply text-gray-500;
+}
+
+:root.light .text-blue-400 {
+  @apply text-blue-600;
+}
+
+:root.light .text-blue-500 {
+  @apply text-blue-700;
+}
+
+:root.light .bg-black {
+  @apply bg-white;
+}
+
+:root.light .bg-white\/5 {
+  @apply bg-gray-100;
+}
+
+:root.light .bg-white\/10 {
+  @apply bg-gray-200;
+}
+
+:root.light .border-white\/10 {
+  @apply border-gray-300;
+}
+
+:root.light .border-white\/5 {
+  @apply border-gray-200;
+}
+
+:root.light .bg-black\/20 {
+  @apply bg-white/80;
+}
+
+:root.light .bg-black\/60 {
+  @apply bg-white/90;
+}
+
+/* Light mode gradient text adjustments */
+:root.light .bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, #1f2937, #1f2937, #3b82f6);
+}
+
+/* Light mode for Earth background - make it more subtle */
+:root.light .opacity-40 {
+  @apply opacity-20;
+}
