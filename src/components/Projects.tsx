@@ -37,6 +37,15 @@ const projects = [
         link: 'https://sdmcollegeevent.vercel.app/',
         github: '#',
         image: '/project-sports.png'
+    },
+    {
+        title: 'Expense Splitter',
+        description: 'Smart group payment manager that intelligently splits expenses with minimal transactions using advanced debt settlement algorithms.',
+        tags: ['JavaScript', 'Algorithm', 'CSS3'],
+        features: ['Smart Group Payments', 'Minimal Transactions', 'Multiple Split Types'],
+        link: 'https://expense-splitter-tau-seven.vercel.app/',
+        github: '#',
+        image: '/project-expense-splitter-art.png'
     }
 ];
 
