@@ -106,7 +106,7 @@ const Projects = () => {
                                     {project.title}
                                 </h3>
                                 <div className="flex flex-wrap gap-2">
-                                    {project.tags.slice(0, 2).map(tag => (
+                                    {project.tags.slice(0, 3).map(tag => (
                                         <span key={tag} className="text-[10px] uppercase tracking-widest text-gray-500" style={{ fontFamily: "'Inter', sans-serif" }}>
                                             {tag}
                                         </span>
