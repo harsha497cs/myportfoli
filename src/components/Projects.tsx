@@ -55,15 +55,6 @@ const projects = [
         link: 'https://my-musicweb.vercel.app/',
         github: 'https://github.com/harsha497cs/-my-musicweb',
         image: '/project-singify.png'
-    },
-    {
-        title: '3D Basketball Court',
-        description: 'An immersive 3D basketball court visualization built with React Three Fiber, featuring realistic textures, lighting, and interactive camera controls.',
-        tags: ['React', 'Three.js', 'Vite'],
-        features: ['3D Visualization', 'Interactive Camera', 'Procedural Textures'],
-        link: 'https://basketball-court-nu.vercel.app/',
-        github: '#',
-        image: ''
     }
 ];
 
