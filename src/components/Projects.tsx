@@ -46,6 +46,15 @@ const projects = [
         link: 'https://expense-splitter-tau-seven.vercel.app/',
         github: '#',
         image: '/project-expense-splitter-art.png'
+    },
+    {
+        title: 'Singify - Music Web App',
+        description: 'A premium music streaming platform with dynamic playlists, mood-based recommendations, and a sleek user interface for an immersive listening experience.',
+        tags: ['React', 'Music Player', 'Vercel'],
+        features: ['Real-time Playback', 'Mood Recommendations', 'Interactive UI'],
+        link: 'https://my-musicweb.vercel.app/',
+        github: 'https://github.com/harsha497cs/-my-musicweb',
+        image: '/project-singify.png'
     }
 ];
 
